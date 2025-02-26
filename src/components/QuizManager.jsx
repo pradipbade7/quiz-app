@@ -90,7 +90,7 @@ export default function QuizManager() {
 
     return (
         <Container maxWidth="md" sx={{ minHeight: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center', backgroundColor: 'var(--background)' }}>
-            <Box sx={{ width: '100%', textAlign: 'center', mb: 4 }}>
+            <Box sx={{ width: '100%', mb: 4 }}>
                 <img src="/logo.png" alt="Quiz App Logo" style={{ width: '50px', position:'absolute', left:'10px', top:'10px' }} /> {/* Use public path */}
             
             {quizState === 'start' && (
