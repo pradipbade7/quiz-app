@@ -1,0 +1,22 @@
+:root {
+  --primary: #05668D;
+  --secondary: #427AA1;
+  --background: #c1d4ea;
+  --success: #679436;
+  --accent: #A5BE00;
+  --text-primary: #05668D;
+  --text-secondary: #427AA1;
+  --hover-color: rgba(5, 102, 141, 0.1);
+  --border-color: #05668D;
+  --card-background: #fff;
+  --danger: #D80032;
+  --danger-glow: #f5184b;
+  --bg-code:#303030;
+  --text-code:#f1ab15;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: var(--background);
+}

@@ -1,0 +1,1063 @@
+{
+    "questions": [
+        {
+            "question": "What is the difference between 'ref' and 'out' parameters in C#?",
+            "options": [
+                "ref requires variable to be initialized before passing, out doesn't",
+                "out requires variable to be initialized before passing, ref doesn't",
+                "ref and out are exactly the same",
+                "ref is for value types, out is for reference types"
+            ],
+            "answer": "ref requires variable to be initialized before passing, out doesn't"
+        },
+        {
+            "question": "Which LINQ method is used to filter elements based on a condition?",
+            "options": [
+                "Where()",
+                "Filter()",
+                "Select()",
+                "Find()"
+            ],
+            "answer": "Where()"
+        },
+        {
+            "question": "What is the purpose of the 'async' keyword in C#?",
+            "options": [
+                "To mark a method as asynchronous",
+                "To make a method run faster",
+                "To create a new thread",
+                "To prevent method execution"
+            ],
+            "answer": "To mark a method as asynchronous"
+        },
+        {
+            "question": "What is the difference between a struct and a class in C#?",
+            "options": [
+                "Struct is a value type, class is a reference type",
+                "Struct can inherit from other structs, class cannot inherit",
+                "Struct can have constructor, class cannot",
+                "There is no difference"
+            ],
+            "answer": "Struct is a value type, class is a reference type"
+        },
+        {
+            "question": "Which collection type in C# maintains insertion order and allows duplicates?",
+            "options": [
+                "List<T>",
+                "HashSet<T>",
+                "Dictionary<K,V>",
+                "Queue<T>"
+            ],
+            "answer": "List<T>"
+        },
+        {
+            "question": "What will be the output of this code snippet?",
+            "code": "int x = 5;\nint y = 10;\nint z = x + y;\nConsole.WriteLine(z);",
+            "options": [
+                "15",
+                "510",
+                "5 + 10",
+                "Error"
+            ],
+            "answer": "15"
+        },
+        {
+            "question": "What will be the output of this LINQ query?",
+            "code": "var numbers = new List<int> { 1, 2, 3, 4, 5 };\nvar result = numbers\n    .Where(x => x > 2)\n    .Select(x => x * 2);",
+            "options": [
+                "[6, 8, 10]",
+                "[2, 4, 6, 8, 10]",
+                "[1, 2, 3, 4, 5]",
+                "[3, 4, 5]"
+            ],
+            "answer": "[6, 8, 10]"
+        },
+        {
+            "question": "What's wrong with this async method?",
+            "code": "public async void DoSomethingAsync()\n{\n    await Task.Delay(1000);\n    return \"Done\";\n}",
+            "options": [
+                "async void should be async Task<string>",
+                "Task.Delay is used incorrectly",
+                "await is unnecessary",
+                "The method is correct"
+            ],
+            "answer": "async void should be async Task<string>"
+        },
+        {
+            "question": "What will this generic method return?",
+            "code": "public T FirstOrDefault<T>(\n    IEnumerable<T> items,\n    Func<T, bool> predicate\n) where T : class\n{\n    return items.FirstOrDefault(predicate);\n}",
+            "options": [
+                "First matching item or null",
+                "First item only",
+                "All matching items",
+                "Last matching item"
+            ],
+            "answer": "First matching item or null"
+        },
+        {
+            "question": "What is the purpose of the 'using' statement in C#?",
+            "options": [
+                "To ensure that IDisposable objects are disposed of properly",
+                "To include namespaces",
+                "To create a new scope",
+                "To handle exceptions"
+            ],
+            "answer": "To ensure that IDisposable objects are disposed of properly"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int[] numbers = { 1, 2, 3, 4, 5 };\nint sum = numbers.Sum();\nConsole.WriteLine(sum);",
+            "options": [
+                "15",
+                "10",
+                "5",
+                "0"
+            ],
+            "answer": "15"
+        },
+        {
+            "question": "What is the purpose of the 'yield' keyword in C#?",
+            "options": [
+                "To return each element one at a time",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To return each element one at a time"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x++;\nConsole.WriteLine(y);",
+            "options": [
+                "5",
+                "6",
+                "4",
+                "0"
+            ],
+            "answer": "5"
+        },
+        {
+            "question": "What is the purpose of the 'lock' statement in C#?",
+            "options": [
+                "To ensure that a block of code runs without interruption",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To ensure that a block of code runs without interruption"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = ++x;\nConsole.WriteLine(y);",
+            "options": [
+                "6",
+                "5",
+                "4",
+                "0"
+            ],
+            "answer": "6"
+        },
+        {
+            "question": "What is the purpose of the 'params' keyword in C#?",
+            "options": [
+                "To allow a method to accept a variable number of arguments",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To allow a method to accept a variable number of arguments"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int[] numbers = { 1, 2, 3, 4, 5 };\nint max = numbers.Max();\nConsole.WriteLine(max);",
+            "options": [
+                "5",
+                "4",
+                "3",
+                "1"
+            ],
+            "answer": "5"
+        },
+        {
+            "question": "What is the purpose of the 'is' keyword in C#?",
+            "options": [
+                "To check if an object is of a specific type",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To check if an object is of a specific type"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x--;\nConsole.WriteLine(y);",
+            "options": [
+                "5",
+                "4",
+                "6",
+                "0"
+            ],
+            "answer": "5"
+        },
+        {
+            "question": "What is the purpose of the 'as' keyword in C#?",
+            "options": [
+                "To perform a safe type conversion",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To perform a safe type conversion"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = --x;\nConsole.WriteLine(y);",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "0"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "What is the purpose of the 'throw' keyword in C#?",
+            "options": [
+                "To raise an exception",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To raise an exception"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int[] numbers = { 1, 2, 3, 4, 5 };\nint min = numbers.Min();\nConsole.WriteLine(min);",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "5"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of the 'catch' keyword in C#?",
+            "options": [
+                "To handle exceptions",
+                "To create a new thread",
+                "To define a delegate",
+                "To return each element one at a time"
+            ],
+            "answer": "To handle exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x + 2;\nConsole.WriteLine(y);",
+            "options": [
+                "7",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "What is the purpose of the 'finally' keyword in C#?",
+            "options": [
+                "To execute code after a try/catch block, regardless of whether an exception was thrown",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To execute code after a try/catch block, regardless of whether an exception was thrown"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x - 2;\nConsole.WriteLine(y);",
+            "options": [
+                "3",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "What is the purpose of the 'try' keyword in C#?",
+            "options": [
+                "To define a block of code to be tested for exceptions",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To define a block of code to be tested for exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x * 2;\nConsole.WriteLine(y);",
+            "options": [
+                "10",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "10"
+        },
+        {
+            "question": "What is the purpose of the 'throw' keyword in C#?",
+            "options": [
+                "To raise an exception",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To raise an exception"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x / 2;\nConsole.WriteLine(y);",
+            "options": [
+                "2",
+                "5",
+                "2.5",
+                "0"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "What is the purpose of the 'catch' keyword in C#?",
+            "options": [
+                "To handle exceptions",
+                "To create a new thread",
+                "To define a delegate",
+                "To return each element one at a time"
+            ],
+            "answer": "To handle exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x % 2;\nConsole.WriteLine(y);",
+            "options": [
+                "1",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of the 'finally' keyword in C#?",
+            "options": [
+                "To execute code after a try/catch block, regardless of whether an exception was thrown",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To execute code after a try/catch block, regardless of whether an exception was thrown"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x & 2;\nConsole.WriteLine(y);",
+            "options": [
+                "0",
+                "5",
+                "2",
+                "1"
+            ],
+            "answer": "0"
+        },
+        {
+            "question": "What is the purpose of the 'try' keyword in C#?",
+            "options": [
+                "To define a block of code to be tested for exceptions",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To define a block of code to be tested for exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x | 2;\nConsole.WriteLine(y);",
+            "options": [
+                "7",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "What is the purpose of the 'throw' keyword in C#?",
+            "options": [
+                "To raise an exception",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To raise an exception"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x ^ 2;\nConsole.WriteLine(y);",
+            "options": [
+                "7",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "What is the purpose of the 'catch' keyword in C#?",
+            "options": [
+                "To handle exceptions",
+                "To create a new thread",
+                "To define a delegate",
+                "To return each element one at a time"
+            ],
+            "answer": "To handle exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x << 2;\nConsole.WriteLine(y);",
+            "options": [
+                "20",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "20"
+        },
+        {
+            "question": "What is the purpose of the 'finally' keyword in C#?",
+            "options": [
+                "To execute code after a try/catch block, regardless of whether an exception was thrown",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To execute code after a try/catch block, regardless of whether an exception was thrown"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x >> 2;\nConsole.WriteLine(y);",
+            "options": [
+                "1",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of the 'try' keyword in C#?",
+            "options": [
+                "To define a block of code to be tested for exceptions",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To define a block of code to be tested for exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = ~x;\nConsole.WriteLine(y);",
+            "options": [
+                "-6",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "-6"
+        },
+        {
+            "question": "What is the purpose of the 'throw' keyword in C#?",
+            "options": [
+                "To raise an exception",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To raise an exception"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x + 2;\nConsole.WriteLine(y);",
+            "options": [
+                "7",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "What is the purpose of the 'catch' keyword in C#?",
+            "options": [
+                "To handle exceptions",
+                "To create a new thread",
+                "To define a delegate",
+                "To return each element one at a time"
+            ],
+            "answer": "To handle exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x - 2;\nConsole.WriteLine(y);",
+            "options": [
+                "3",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "What is the purpose of the 'finally' keyword in C#?",
+            "options": [
+                "To execute code after a try/catch block, regardless of whether an exception was thrown",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To execute code after a try/catch block, regardless of whether an exception was thrown"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x * 2;\nConsole.WriteLine(y);",
+            "options": [
+                "10",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "10"
+        },
+        {
+            "question": "What is the difference between 'ref' and 'out' parameters in C#?",
+            "options": [
+                "ref requires variable to be initialized before passing, out doesn't",
+                "out requires variable to be initialized before passing, ref doesn't",
+                "ref and out are exactly the same",
+                "ref is for value types, out is for reference types"
+            ],
+            "answer": "ref requires variable to be initialized before passing, out doesn't"
+        },
+        {
+            "question": "Which LINQ method is used to filter elements based on a condition?",
+            "options": [
+                "Where()",
+                "Filter()",
+                "Select()",
+                "Find()"
+            ],
+            "answer": "Where()"
+        },
+        {
+            "question": "What is the purpose of the 'async' keyword in C#?",
+            "options": [
+                "To mark a method as asynchronous",
+                "To make a method run faster",
+                "To create a new thread",
+                "To prevent method execution"
+            ],
+            "answer": "To mark a method as asynchronous"
+        },
+        {
+            "question": "What is the difference between a struct and a class in C#?",
+            "options": [
+                "Struct is a value type, class is a reference type",
+                "Struct can inherit from other structs, class cannot inherit",
+                "Struct can have constructor, class cannot",
+                "There is no difference"
+            ],
+            "answer": "Struct is a value type, class is a reference type"
+        },
+        {
+            "question": "Which collection type in C# maintains insertion order and allows duplicates?",
+            "options": [
+                "List<T>",
+                "HashSet<T>",
+                "Dictionary<K,V>",
+                "Queue<T>"
+            ],
+            "answer": "List<T>"
+        },
+        {
+            "question": "What will be the output of this LINQ query?",
+            "code": "var numbers = new List<int> { 1, 2, 3, 4, 5 };\nvar result = numbers\n    .Where(x => x > 2)\n    .Select(x => x * 2);",
+            "options": [
+                "[6, 8, 10]",
+                "[2, 4, 6, 8, 10]",
+                "[1, 2, 3, 4, 5]",
+                "[3, 4, 5]"
+            ],
+            "answer": "[6, 8, 10]"
+        },
+        {
+            "question": "What's wrong with this async method?",
+            "code": "public async void DoSomethingAsync()\n{\n    await Task.Delay(1000);\n    return \"Done\";\n}",
+            "options": [
+                "async void should be async Task<string>",
+                "Task.Delay is used incorrectly",
+                "await is unnecessary",
+                "The method is correct"
+            ],
+            "answer": "async void should be async Task<string>"
+        },
+        {
+            "question": "What will this generic method return?",
+            "code": "public T FirstOrDefault<T>(\n    IEnumerable<T> items,\n    Func<T, bool> predicate\n) where T : class\n{\n    return items.FirstOrDefault(predicate);\n}",
+            "options": [
+                "First matching item or null",
+                "First item only",
+                "All matching items",
+                "Last matching item"
+            ],
+            "answer": "First matching item or null"
+        },
+        {
+            "question": "What is the purpose of the 'using' statement in C#?",
+            "options": [
+                "To ensure that IDisposable objects are disposed of properly",
+                "To include namespaces",
+                "To create a new scope",
+                "To handle exceptions"
+            ],
+            "answer": "To ensure that IDisposable objects are disposed of properly"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int[] numbers = { 1, 2, 3, 4, 5 };\nint sum = numbers.Sum();\nConsole.WriteLine(sum);",
+            "options": [
+                "15",
+                "10",
+                "5",
+                "0"
+            ],
+            "answer": "15"
+        },
+        {
+            "question": "What is the purpose of the 'yield' keyword in C#?",
+            "options": [
+                "To return each element one at a time",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To return each element one at a time"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x++;\nConsole.WriteLine(y);",
+            "options": [
+                "5",
+                "6",
+                "4",
+                "0"
+            ],
+            "answer": "5"
+        },
+        {
+            "question": "What is the purpose of the 'lock' statement in C#?",
+            "options": [
+                "To ensure that a block of code runs without interruption",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To ensure that a block of code runs without interruption"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = ++x;\nConsole.WriteLine(y);",
+            "options": [
+                "6",
+                "5",
+                "4",
+                "0"
+            ],
+            "answer": "6"
+        },
+        {
+            "question": "What is the purpose of the 'params' keyword in C#?",
+            "options": [
+                "To allow a method to accept a variable number of arguments",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To allow a method to accept a variable number of arguments"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int[] numbers = { 1, 2, 3, 4, 5 };\nint max = numbers.Max();\nConsole.WriteLine(max);",
+            "options": [
+                "5",
+                "4",
+                "3",
+                "1"
+            ],
+            "answer": "5"
+        },
+        {
+            "question": "What is the purpose of the 'is' keyword in C#?",
+            "options": [
+                "To check if an object is of a specific type",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To check if an object is of a specific type"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x--;\nConsole.WriteLine(y);",
+            "options": [
+                "5",
+                "4",
+                "6",
+                "0"
+            ],
+            "answer": "5"
+        },
+        {
+            "question": "What is the purpose of the 'as' keyword in C#?",
+            "options": [
+                "To perform a safe type conversion",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To perform a safe type conversion"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = --x;\nConsole.WriteLine(y);",
+            "options": [
+                "4",
+                "5",
+                "6",
+                "0"
+            ],
+            "answer": "4"
+        },
+        {
+            "question": "What is the purpose of the 'throw' keyword in C#?",
+            "options": [
+                "To raise an exception",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To raise an exception"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int[] numbers = { 1, 2, 3, 4, 5 };\nint min = numbers.Min();\nConsole.WriteLine(min);",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "5"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of the 'catch' keyword in C#?",
+            "options": [
+                "To handle exceptions",
+                "To create a new thread",
+                "To define a delegate",
+                "To return each element one at a time"
+            ],
+            "answer": "To handle exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x + 2;\nConsole.WriteLine(y);",
+            "options": [
+                "7",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "What is the purpose of the 'finally' keyword in C#?",
+            "options": [
+                "To execute code after a try/catch block, regardless of whether an exception was thrown",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To execute code after a try/catch block, regardless of whether an exception was thrown"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x - 2;\nConsole.WriteLine(y);",
+            "options": [
+                "3",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "What is the purpose of the 'try' keyword in C#?",
+            "options": [
+                "To define a block of code to be tested for exceptions",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To define a block of code to be tested for exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x * 2;\nConsole.WriteLine(y);",
+            "options": [
+                "10",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "10"
+        },
+        {
+            "question": "What is the purpose of the 'throw' keyword in C#?",
+            "options": [
+                "To raise an exception",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To raise an exception"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x / 2;\nConsole.WriteLine(y);",
+            "options": [
+                "2",
+                "5",
+                "2.5",
+                "0"
+            ],
+            "answer": "2"
+        },
+        {
+            "question": "What is the purpose of the 'catch' keyword in C#?",
+            "options": [
+                "To handle exceptions",
+                "To create a new thread",
+                "To define a delegate",
+                "To return each element one at a time"
+            ],
+            "answer": "To handle exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x % 2;\nConsole.WriteLine(y);",
+            "options": [
+                "1",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of the 'finally' keyword in C#?",
+            "options": [
+                "To execute code after a try/catch block, regardless of whether an exception was thrown",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To execute code after a try/catch block, regardless of whether an exception was thrown"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x & 2;\nConsole.WriteLine(y);",
+            "options": [
+                "0",
+                "5",
+                "2",
+                "1"
+            ],
+            "answer": "0"
+        },
+        {
+            "question": "What is the purpose of the 'try' keyword in C#?",
+            "options": [
+                "To define a block of code to be tested for exceptions",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To define a block of code to be tested for exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x | 2;\nConsole.WriteLine(y);",
+            "options": [
+                "7",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "What is the purpose of the 'throw' keyword in C#?",
+            "options": [
+                "To raise an exception",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To raise an exception"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x ^ 2;\nConsole.WriteLine(y);",
+            "options": [
+                "7",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "What is the purpose of the 'catch' keyword in C#?",
+            "options": [
+                "To handle exceptions",
+                "To create a new thread",
+                "To define a delegate",
+                "To return each element one at a time"
+            ],
+            "answer": "To handle exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x << 2;\nConsole.WriteLine(y);",
+            "options": [
+                "20",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "20"
+        },
+        {
+            "question": "What is the purpose of the 'finally' keyword in C#?",
+            "options": [
+                "To execute code after a try/catch block, regardless of whether an exception was thrown",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To execute code after a try/catch block, regardless of whether an exception was thrown"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x >> 2;\nConsole.WriteLine(y);",
+            "options": [
+                "1",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "1"
+        },
+        {
+            "question": "What is the purpose of the 'try' keyword in C#?",
+            "options": [
+                "To define a block of code to be tested for exceptions",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To define a block of code to be tested for exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = ~x;\nConsole.WriteLine(y);",
+            "options": [
+                "-6",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "-6"
+        },
+        {
+            "question": "What is the purpose of the 'throw' keyword in C#?",
+            "options": [
+                "To raise an exception",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To raise an exception"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x + 2;\nConsole.WriteLine(y);",
+            "options": [
+                "7",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "7"
+        },
+        {
+            "question": "What is the purpose of the 'catch' keyword in C#?",
+            "options": [
+                "To handle exceptions",
+                "To create a new thread",
+                "To define a delegate",
+                "To return each element one at a time"
+            ],
+            "answer": "To handle exceptions"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x - 2;\nConsole.WriteLine(y);",
+            "options": [
+                "3",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "3"
+        },
+        {
+            "question": "What is the purpose of the 'finally' keyword in C#?",
+            "options": [
+                "To execute code after a try/catch block, regardless of whether an exception was thrown",
+                "To create a new thread",
+                "To handle exceptions",
+                "To define a delegate"
+            ],
+            "answer": "To execute code after a try/catch block, regardless of whether an exception was thrown"
+        },
+        {
+            "question": "What is the output of this code?",
+            "code": "int x = 5;\nint y = x * 2;\nConsole.WriteLine(y);",
+            "options": [
+                "10",
+                "5",
+                "2",
+                "0"
+            ],
+            "answer": "10"
+        }
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "questions": [
+      {
+        "question": "What is a list comprehension in Python?",
+        "options": [
+          "A concise way to create lists based on existing iterables",
+          "A way to sort lists",
+          "A method to combine multiple lists",
+          "A type of loop in Python"
+        ],
+        "answer": "A concise way to create lists based on existing iterables"
+      },
+      {
+        "question": "What is the difference between a tuple and a list in Python?",
+        "options": [
+          "Tuples are immutable, lists are mutable",
+          "Tuples can only store strings, lists can store any type",
+          "Tuples are faster than lists",
+          "There is no difference"
+        ],
+        "answer": "Tuples are immutable, lists are mutable"
+      },
+      {
+        "question": "What is the purpose of the '__init__' method in Python classes?",
+        "options": [
+          "To initialize object attributes",
+          "To create a new class",
+          "To delete an object",
+          "To import modules"
+        ],
+        "answer": "To initialize object attributes"
+      },
+      {
+        "question": "What is a decorator in Python?",
+        "options": [
+          "A way to modify or enhance functions",
+          "A type of comment",
+          "A way to create classes",
+          "A built-in data type"
+        ],
+        "answer": "A way to modify or enhance functions"
+      },
+      {
+        "question": "What is the purpose of the 'lambda' keyword in Python?",
+        "options": [
+          "To create anonymous functions",
+          "To import modules",
+          "To define classes",
+          "To create loops"
+        ],
+        "answer": "To create anonymous functions"
+      },
+      {
+        "question": "What's the output of this list comprehension?",
+        "code": "numbers = [1, 2, 3, 4, 5]\nresult = [x * 2 for x in numbers if x > 2]",
+        "options": [
+          "[6, 8, 10]",
+          "[2, 4, 6, 8, 10]",
+          "[1, 2, 3, 4, 5]",
+          "[3, 4, 5]"
+        ],
+        "answer": "[6, 8, 10]"
+      },
+      {
+        "question": "What will this decorator do?",
+        "code": "@property\ndef full_name(self):\n    return f\"{self.first_name} {self.last_name}\"",
+        "options": [
+          "Creates a read-only property",
+          "Creates a static method",
+          "Creates a class method",
+          "Creates a private method"
+        ],
+        "answer": "Creates a read-only property"
+      },
+      {
+        "question": "What's the output of this dictionary comprehension?",
+        "code": "nums = [1, 2, 3, 4]\nresult = {x: x**2 for x in nums if x % 2 == 0}",
+        "options": [
+          "{2: 4, 4: 16}",
+          "{1: 1, 2: 4, 3: 9, 4: 16}",
+          "{2: 2, 4: 4}",
+          "[4, 16]"
+        ],
+        "answer": "{2: 4, 4: 16}"
+      },
+      {
+        "question": "Which of the following is an optimization technique used in mathematical programming?",
+        "options": [
+          "Linear Programming",
+          "Regression Analysis",
+          "Neural Networks",
+          "Decision Trees"
+        ],
+        "answer": "Linear Programming"
+      },
+      {
+        "question": "What does the objective function represent in a mathematical programming problem?",
+        "options": [
+          "A constraint on the decision variables",
+          "A function to be maximized or minimized",
+          "A data visualization technique",
+          "A statistical hypothesis"
+        ],
+        "answer": "A function to be maximized or minimized"
+      },
+      {
+        "question": "Which Python library is commonly used for solving linear programming problems?",
+        "options": [
+          "NumPy",
+          "SciPy",
+          "Matplotlib",
+          "Pandas"
+        ],
+        "answer": "SciPy"
+      },
+      {
+        "question": "What’s the output of this dictionary comprehension?",
+        "code": "nums = [1, 2, 3, 4]\nresult = {x: x**2 for x in nums if x % 2 == 0}",
+        "options": [
+          "{2: 4, 4: 16}",
+          "{1: 1, 2: 4, 3: 9, 4: 16}",
+          "{2: 2, 4: 4}",
+          "[4, 16]"
+        ],
+        "answer": "{2: 4, 4: 16}"
+      },
+      {
+        "question": "The output of the program",
+        "code": "x = 3 + 4j\nprint x, type(x)",
+        "options": [
+          "3 + 4j, <type complex>",
+          "(3 + 4j) <type 'complex'>",
+          "3 + 4j <type complex>",
+          "(3 + 4j) <type ‘complex’>"
+        ],
+        "answer": "(3 + 4j) <type 'complex'>"
+      },
+      {
+        "question": "The output of the program",
+        "code": "s = 'Hello '\nprint s + s",
+        "options": [
+          "10",
+          "Hello Hello",
+          "False",
+          "True"
+        ],
+        "answer": "Hello Hello"
+      },
+      {
+        "question": "Who developed the Python language?",
+        "options": [
+          "Zim Den",
+          "Guido van Rossum",
+          "Niene Stom",
+          "Wick van Rossum"
+        ],
+        "answer": "Guido van Rossum"
+      },
+      {
+        "question": "In which year was the Python language developed?",
+        "options": [
+          "1995",
+          "1972",
+          "1981",
+          "1989"
+        ],
+        "answer": "1989"
+      },
+      {
+        "question": "Which Python library is commonly used for solving linear programming problems?",
+        "options": [
+          "NumPy",
+          "SciPy",
+          "Matplotlib",
+          "Pandas"
+        ],
+        "answer": "SciPy"
+      }
+    ]
+  }

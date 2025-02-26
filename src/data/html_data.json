@@ -1,0 +1,577 @@
+{
+    "questions": [
+      {
+        "question": "What is the purpose of the HTML5 'semantic' elements?",
+        "options": [
+          "To provide meaning to the webpage structure",
+          "To make the webpage look better",
+          "To improve website performance",
+          "To add animations"
+        ],
+        "answer": "To provide meaning to the webpage structure"
+      },
+      {
+        "question": "Which HTML element is used to create a dropdown list?",
+        "options": [
+          "select",
+          "dropdown",
+          "option",
+          "list"
+        ],
+        "answer": "select"
+      },
+      {
+        "question": "What is the purpose of the 'alt' attribute in images?",
+        "options": [
+          "To provide alternative text when image fails to load",
+          "To set image alignment",
+          "To specify image source",
+          "To define image width"
+        ],
+        "answer": "To provide alternative text when image fails to load"
+      },
+      {
+        "question": "Which HTML5 element is used for playing video files?",
+        "options": [
+          "video",
+          "media",
+          "player",
+          "movie"
+        ],
+        "answer": "video"
+      },
+      {
+        "question": "What is the correct HTML element for inserting a line break?",
+        "options": [
+          "br",
+          "lb",
+          "break",
+          "newline"
+        ],
+        "answer": "br"
+      },
+      {
+        "question": "What's wrong with this HTML5 form?",
+        "code": "<form>\n  <input type=\"email\" required>\n  <button>Submit</button>\n</form>",
+        "options": [
+          "Missing name attribute on input",
+          "Wrong type attribute",
+          "Missing form action",
+          "Missing button type"
+        ],
+        "answer": "Missing form action"
+      },
+      {
+        "question": "What's the purpose of this HTML structure?",
+        "code": "<article>\n  <header>\n    <h1>Title</h1>\n    <time datetime=\"2024-03-20\">March 20</time>\n  </header>\n  <p>Content</p>\n</article>",
+        "options": [
+          "Creates a semantic blog post structure",
+          "Creates a navigation menu",
+          "Defines a form layout",
+          "Creates a table structure"
+        ],
+        "answer": "Creates a semantic blog post structure"
+      },
+      {
+        "question": "What's the effect of these attributes?",
+        "code": "<img src=\"image.jpg\"\n     loading=\"lazy\"\n     srcset=\"image-sm.jpg 300w,\n             image-lg.jpg 1000w\"\n     alt=\"Description\">",
+        "options": [
+          "Implements responsive images with lazy loading",
+          "Creates an image slider",
+          "Adds image animation",
+          "Sets image dimensions"
+        ],
+        "answer": "Implements responsive images with lazy loading"
+      },
+      {
+        "question": "What is the purpose of the <meta> tag in HTML?",
+        "options": [
+          "To provide metadata about the HTML document",
+          "To create a hyperlink",
+          "To embed an image",
+          "To define a section in the document"
+        ],
+        "answer": "To provide metadata about the HTML document"
+      },
+      {
+        "question": "Which HTML element is used to define a table row?",
+        "options": [
+          "tr",
+          "td",
+          "th",
+          "table"
+        ],
+        "answer": "tr"
+      },
+      {
+        "question": "What is the purpose of the <head> element in HTML?",
+        "options": [
+          "To contain metadata and links to scripts and stylesheets",
+          "To display the main content of the page",
+          "To create a header section",
+          "To define a footer section"
+        ],
+        "answer": "To contain metadata and links to scripts and stylesheets"
+      },
+      {
+        "question": "Which HTML element is used to create a hyperlink?",
+        "options": [
+          "a",
+          "link",
+          "href",
+          "hyperlink"
+        ],
+        "answer": "a"
+      },
+      {
+        "question": "What is the purpose of the <title> element in HTML?",
+        "options": [
+          "To define the title of the document, shown in the browser's title bar or tab",
+          "To create a heading",
+          "To define a section in the document",
+          "To provide alternative text for images"
+        ],
+        "answer": "To define the title of the document, shown in the browser's title bar or tab"
+      },
+      {
+        "question": "Which HTML element is used to define a list item?",
+        "options": [
+          "li",
+          "ul",
+          "ol",
+          "list"
+        ],
+        "answer": "li"
+      },
+      {
+        "question": "What is the purpose of the <footer> element in HTML?",
+        "options": [
+          "To define a footer for a document or section",
+          "To create a header section",
+          "To display the main content of the page",
+          "To define a navigation menu"
+        ],
+        "answer": "To define a footer for a document or section"
+      },
+      {
+        "question": "Which HTML element is used to define emphasized text?",
+        "options": [
+          "em",
+          "strong",
+          "i",
+          "b"
+        ],
+        "answer": "em"
+      },
+      {
+        "question": "What is the purpose of the <nav> element in HTML?",
+        "options": [
+          "To define a navigation menu",
+          "To create a hyperlink",
+          "To embed an image",
+          "To define a section in the document"
+        ],
+        "answer": "To define a navigation menu"
+      },
+      {
+        "question": "Which HTML element is used to define a section in a document?",
+        "options": [
+          "section",
+          "div",
+          "article",
+          "header"
+        ],
+        "answer": "section"
+      },
+      {
+        "question": "What is the purpose of the <blockquote> element in HTML?",
+        "options": [
+          "To define a section that is quoted from another source",
+          "To create a block of text",
+          "To define a paragraph",
+          "To create a list"
+        ],
+        "answer": "To define a section that is quoted from another source"
+      },
+      {
+        "question": "Which HTML element is used to define a paragraph?",
+        "options": [
+          "p",
+          "div",
+          "span",
+          "section"
+        ],
+        "answer": "p"
+      },
+      {
+        "question": "What is the purpose of the <code> element in HTML?",
+        "options": [
+          "To define a piece of computer code",
+          "To create a hyperlink",
+          "To embed an image",
+          "To define a section in the document"
+        ],
+        "answer": "To define a piece of computer code"
+      },
+      {
+        "question": "Which HTML element is used to define a table header?",
+        "options": [
+          "th",
+          "tr",
+          "td",
+          "table"
+        ],
+        "answer": "th"
+      },
+      {
+        "question": "What is the purpose of the <pre> element in HTML?",
+        "options": [
+          "To define preformatted text",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To define preformatted text"
+      },
+      {
+        "question": "Which HTML element is used to define a form for user input?",
+        "options": [
+          "form",
+          "input",
+          "textarea",
+          "button"
+        ],
+        "answer": "form"
+      },
+      {
+        "question": "What is the purpose of the <label> element in HTML?",
+        "options": [
+          "To define a label for an input element",
+          "To create a heading",
+          "To define a section in the document",
+          "To provide alternative text for images"
+        ],
+        "answer": "To define a label for an input element"
+      },
+      {
+        "question": "Which HTML element is used to define a drop-down list?",
+        "options": [
+          "select",
+          "option",
+          "dropdown",
+          "list"
+        ],
+        "answer": "select"
+      },
+      {
+        "question": "What is the purpose of the <textarea> element in HTML?",
+        "options": [
+          "To define a multi-line text input control",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To define a multi-line text input control"
+      },
+      {
+        "question": "Which HTML element is used to define a clickable button?",
+        "options": [
+          "button",
+          "input",
+          "a",
+          "link"
+        ],
+        "answer": "button"
+      },
+      {
+        "question": "What is the purpose of the <fieldset> element in HTML?",
+        "options": [
+          "To group related elements in a form",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To group related elements in a form"
+      },
+      {
+        "question": "Which HTML element is used to define a caption for a table?",
+        "options": [
+          "caption",
+          "table",
+          "th",
+          "tr"
+        ],
+        "answer": "caption"
+      },
+      {
+        "question": "What is the purpose of the <legend> element in HTML?",
+        "options": [
+          "To define a caption for a <fieldset> element",
+          "To create a heading",
+          "To define a section in the document",
+          "To provide alternative text for images"
+        ],
+        "answer": "To define a caption for a <fieldset> element"
+      },
+      {
+        "question": "Which HTML element is used to define a horizontal rule?",
+        "options": [
+          "hr",
+          "br",
+          "div",
+          "span"
+        ],
+        "answer": "hr"
+      },
+      {
+        "question": "What is the purpose of the <iframe> element in HTML?",
+        "options": [
+          "To embed another HTML page within the current page",
+          "To create a hyperlink",
+          "To embed an image",
+          "To define a section in the document"
+        ],
+        "answer": "To embed another HTML page within the current page"
+      },
+      {
+        "question": "Which HTML element is used to define a list of items in a specific order?",
+        "options": [
+          "ol",
+          "ul",
+          "li",
+          "list"
+        ],
+        "answer": "ol"
+      },
+      {
+        "question": "What is the purpose of the <dl> element in HTML?",
+        "options": [
+          "To define a description list",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To define a description list"
+      },
+      {
+        "question": "Which HTML element is used to define a term in a description list?",
+        "options": [
+          "dt",
+          "dd",
+          "dl",
+          "term"
+        ],
+        "answer": "dt"
+      },
+      {
+        "question": "What is the purpose of the <dd> element in HTML?",
+        "options": [
+          "To define a description of a term in a description list",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To define a description of a term in a description list"
+      },
+      {
+        "question": "Which HTML element is used to define a section in a document?",
+        "options": [
+          "section",
+          "div",
+          "article",
+          "header"
+        ],
+        "answer": "section"
+      },
+      {
+        "question": "What is the purpose of the <blockquote> element in HTML?",
+        "options": [
+          "To define a section that is quoted from another source",
+          "To create a block of text",
+          "To define a paragraph",
+          "To create a list"
+        ],
+        "answer": "To define a section that is quoted from another source"
+      },
+      {
+        "question": "Which HTML element is used to define a paragraph?",
+        "options": [
+          "p",
+          "div",
+          "span",
+          "section"
+        ],
+        "answer": "p"
+      },
+      {
+        "question": "What is the purpose of the <code> element in HTML?",
+        "options": [
+          "To define a piece of computer code",
+          "To create a hyperlink",
+          "To embed an image",
+          "To define a section in the document"
+        ],
+        "answer": "To define a piece of computer code"
+      },
+      {
+        "question": "Which HTML element is used to define a table header?",
+        "options": [
+          "th",
+          "tr",
+          "td",
+          "table"
+        ],
+        "answer": "th"
+      },
+      {
+        "question": "What is the purpose of the <pre> element in HTML?",
+        "options": [
+          "To define preformatted text",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To define preformatted text"
+      },
+      {
+        "question": "Which HTML element is used to define a form for user input?",
+        "options": [
+          "form",
+          "input",
+          "textarea",
+          "button"
+        ],
+        "answer": "form"
+      },
+      {
+        "question": "What is the purpose of the <label> element in HTML?",
+        "options": [
+          "To define a label for an input element",
+          "To create a heading",
+          "To define a section in the document",
+          "To provide alternative text for images"
+        ],
+        "answer": "To define a label for an input element"
+      },
+      {
+        "question": "Which HTML element is used to define a drop-down list?",
+        "options": [
+          "select",
+          "option",
+          "dropdown",
+          "list"
+        ],
+        "answer": "select"
+      },
+      {
+        "question": "What is the purpose of the <textarea> element in HTML?",
+        "options": [
+          "To define a multi-line text input control",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To define a multi-line text input control"
+      },
+      {
+        "question": "Which HTML element is used to define a clickable button?",
+        "options": [
+          "button",
+          "input",
+          "a",
+          "link"
+        ],
+        "answer": "button"
+      },
+      {
+        "question": "What is the purpose of the <fieldset> element in HTML?",
+        "options": [
+          "To group related elements in a form",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To group related elements in a form"
+      },
+      {
+        "question": "Which HTML element is used to define a caption for a table?",
+        "options": [
+          "caption",
+          "table",
+          "th",
+          "tr"
+        ],
+        "answer": "caption"
+      },
+      {
+        "question": "What is the purpose of the <legend> element in HTML?",
+        "options": [
+          "To define a caption for a <fieldset> element",
+          "To create a heading",
+          "To define a section in the document",
+          "To provide alternative text for images"
+        ],
+        "answer": "To define a caption for a <fieldset> element"
+      },
+      {
+        "question": "Which HTML element is used to define a horizontal rule?",
+        "options": [
+          "hr",
+          "br",
+          "div",
+          "span"
+        ],
+        "answer": "hr"
+      },
+      {
+        "question": "What is the purpose of the <iframe> element in HTML?",
+        "options": [
+          "To embed another HTML page within the current page",
+          "To create a hyperlink",
+          "To embed an image",
+          "To define a section in the document"
+        ],
+        "answer": "To embed another HTML page within the current page"
+      },
+      {
+        "question": "Which HTML element is used to define a list of items in a specific order?",
+        "options": [
+          "ol",
+          "ul",
+          "li",
+          "list"
+        ],
+        "answer": "ol"
+      },
+      {
+        "question": "What is the purpose of the <dl> element in HTML?",
+        "options": [
+          "To define a description list",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To define a description list"
+      },
+      {
+        "question": "Which HTML element is used to define a term in a description list?",
+        "options": [
+          "dt",
+          "dd",
+          "dl",
+          "term"
+        ],
+        "answer": "dt"
+      },
+      {
+        "question": "What is the purpose of the <dd> element in HTML?",
+        "options": [
+          "To define a description of a term in a description list",
+          "To create a paragraph",
+          "To define a section in the document",
+          "To create a list"
+        ],
+        "answer": "To define a description of a term in a description list"
+      }
+    ]
+  }

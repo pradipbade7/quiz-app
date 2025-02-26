@@ -1,0 +1,213 @@
+{
+    "questions": [
+      {
+        "question": "What is the difference between INNER JOIN and LEFT JOIN?",
+        "options": [
+          "LEFT JOIN includes unmatched rows from left table, INNER JOIN doesn't",
+          "INNER JOIN includes unmatched rows, LEFT JOIN doesn't",
+          "They are exactly the same",
+          "LEFT JOIN is faster than INNER JOIN"
+        ],
+        "answer": "LEFT JOIN includes unmatched rows from left table, INNER JOIN doesn't"
+      },
+      {
+        "question": "What is the purpose of the GROUP BY clause?",
+        "options": [
+          "To group rows that have the same values in specified columns",
+          "To sort the result set",
+          "To filter rows based on conditions",
+          "To join multiple tables"
+        ],
+        "answer": "To group rows that have the same values in specified columns"
+      },
+      {
+        "question": "What is a PRIMARY KEY constraint?",
+        "options": [
+          "A column or columns that uniquely identify each row",
+          "A column that can contain NULL values",
+          "A column that references another table",
+          "A column that has a default value"
+        ],
+        "answer": "A column or columns that uniquely identify each row"
+      },
+      {
+        "question": "What is the purpose of an INDEX in SQL?",
+        "options": [
+          "To improve query performance",
+          "To store data",
+          "To create relationships between tables",
+          "To validate data"
+        ],
+        "answer": "To improve query performance"
+      },
+      {
+        "question": "What is the difference between DELETE and TRUNCATE?",
+        "options": [
+          "TRUNCATE is faster and can't be rolled back",
+          "DELETE is faster and can't be rolled back",
+          "They are exactly the same",
+          "TRUNCATE removes specific rows, DELETE removes all rows"
+        ],
+        "answer": "TRUNCATE is faster and can't be rolled back"
+      },
+      {
+        "question": "What will be the output of this query?",
+        "code": "SELECT department_id, COUNT(*) as emp_count,\nAVG(salary) as avg_salary\nFROM employees\nGROUP BY department_id\nHAVING COUNT(*) > 5;",
+        "options": [
+          "Departments with more than 5 employees and their average salaries",
+          "All departments and their employee counts",
+          "Departments with exactly 5 employees",
+          "Employee salaries greater than 5000"
+        ],
+        "answer": "Departments with more than 5 employees and their average salaries"
+      },
+      {
+        "question": "What's wrong with this query?",
+        "code": "SELECT name, salary\nFROM employees\nWHERE department = 'IT'\nGROUP BY department;",
+        "options": [
+          "name column must be in GROUP BY clause",
+          "WHERE clause should come after GROUP BY",
+          "salary column needs an aggregate function",
+          "department column is missing from SELECT"
+        ],
+        "answer": "name column must be in GROUP BY clause"
+      },
+      {
+        "question": "What will this window function return?",
+        "code": "SELECT name,\n       salary,\n       RANK() OVER (ORDER BY salary DESC)\nFROM employees;",
+        "options": [
+          "Ranks employees by salary with possible gaps in rank numbers",
+          "Assigns sequential numbers without gaps",
+          "Orders employees by salary only",
+          "Groups employees by salary"
+        ],
+        "answer": "Ranks employees by salary with possible gaps in rank numbers"
+      },
+      {
+        "question": "What's the purpose of COALESCE in this query?",
+        "code": "SELECT name,\n       COALESCE(commission, 0) as commission\nFROM employees;",
+        "options": [
+          "Replaces NULL commission values with 0",
+          "Counts number of commissions",
+          "Combines name and commission",
+          "Calculates average commission"
+        ],
+        "answer": "Replaces NULL commission values with 0"
+      },
+      {
+        "question": "What will this subquery return?",
+        "code": "SELECT name\nFROM employees e\nWHERE salary > (\n    SELECT AVG(salary)\n    FROM employees\n    WHERE department_id = e.department_id\n);",
+        "options": [
+          "Employees with salary above their department average",
+          "Employees with highest salary in company",
+          "Average salary of all departments",
+          "Departments with above average salaries"
+        ],
+        "answer": "Employees with salary above their department average"
+      },
+      {
+        "question": "What type of JOIN is this?",
+        "code": "SELECT e.name, d.department_name\nFROM employees e\nLEFT JOIN departments d\n  ON e.department_id = d.id\nWHERE d.id IS NULL;",
+        "options": [
+          "Finds employees with no department",
+          "Finds all employees and their departments",
+          "Finds departments with no employees",
+          "Finds matching employees and departments"
+        ],
+        "answer": "Finds employees with no department"
+      },
+      {
+        "question": "Which SQL command is used to retrieve data from a database?",
+        "options": [
+          "SELECT",
+          "INSERT",
+          "UPDATE",
+          "DELETE"
+        ],
+        "answer": "SELECT"
+      },
+      {
+        "question": "What does the following SQL query do?",
+        "code": "SELECT * FROM employees WHERE salary > 50000;",
+        "options": [
+          "Selects all employees",
+          "Selects employees earning more than 50,000",
+          "Selects employees earning less than 50,000",
+          "Deletes employees with salary greater than 50,000"
+        ],
+        "answer": "Selects employees earning more than 50,000"
+      },
+      {
+        "question": "Which SQL statement is used to insert new records in a table?",
+        "options": [
+          "ADD",
+          "INSERT INTO",
+          "MODIFY",
+          "UPDATE"
+        ],
+        "answer": "INSERT INTO"
+      },
+      {
+        "question": "What is the purpose of the PRIMARY KEY constraint?",
+        "options": [
+          "Ensures all values in a column are unique",
+          "Prevents NULL values",
+          "Defines a unique identifier for each row",
+          "All of the above"
+        ],
+        "answer": "All of the above"
+      },
+      {
+        "question": "Which SQL clause is used to filter records?",
+        "options": [
+          "ORDER BY",
+          "WHERE",
+          "GROUP BY",
+          "HAVING"
+        ],
+        "answer": "WHERE"
+      },
+      {
+        "question": "What does this SQL statement do?",
+        "code": "UPDATE students SET grade = 'A' WHERE score > 90;",
+        "options": [
+          "Changes all student grades to 'A'",
+          "Updates grades of students scoring above 90",
+          "Deletes students with score > 90",
+          "Adds a new column named 'A' to students"
+        ],
+        "answer": "Updates grades of students scoring above 90"
+      },
+      {
+        "question": "Which SQL function returns the number of rows in a table?",
+        "options": [
+          "SUM()",
+          "AVG()",
+          "COUNT()",
+          "TOTAL()"
+        ],
+        "answer": "COUNT()"
+      },
+      {
+        "question": "What does the following SQL statement do?",
+        "code": "DELETE FROM users WHERE last_login < '2022-01-01';",
+        "options": [
+          "Deletes all users",
+          "Deletes users who have not logged in since 2022",
+          "Deletes users who logged in before 2022",
+          "Removes the last_login column"
+        ],
+        "answer": "Deletes users who have not logged in since 2022"
+      },
+      {
+        "question": "Which SQL clause is used to sort the result set?",
+        "options": [
+          "SORT BY",
+          "ORDER BY",
+          "GROUP BY",
+          "FILTER BY"
+        ],
+        "answer": "ORDER BY"
+      }
+    ]
+  }

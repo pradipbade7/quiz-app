@@ -1,0 +1,862 @@
+{
+    "questions": [
+      
+      {
+        "question": "What does API stand for?",
+        "options": [
+          "Application Programming Interface",
+          "Advanced Programming Integration",
+          "Applied Protocol Interaction",
+          "Automated Processing Interface"
+        ],
+        "answer": "Application Programming Interface"
+      },
+      {
+        "question": "Which protocol is commonly used by Web APIs?",
+        "options": ["FTP", "HTTP/HTTPS", "SMTP", "POP3"],
+        "answer": "HTTP/HTTPS"
+      },
+      {
+        "question": "What is REST in the context of Web APIs?",
+        "options": [
+          "Representational State Transfer",
+          "Random Execution of Services and Transactions",
+          "Remote Environment for Server Testing",
+          "Replicated System Technology"
+        ],
+        "answer": "Representational State Transfer"
+      },
+      {
+        "question": "Which of the following is NOT a valid HTTP method used in RESTful APIs?",
+        "options": ["GET", "POST", "DELETE", "RUN"],
+        "answer": "RUN"
+      },
+      {
+        "question": "What does the HTTP GET method do?",
+        "options": ["Deletes data", "Retrieves data", "Updates data", "Creates new data"],
+        "answer": "Retrieves data"
+      },
+      {
+        "question": "Which response status code indicates a successful request in HTTP?",
+        "options": ["200", "404", "500", "401"],
+        "answer": "200"
+      },
+      {
+        "question": "What does the HTTP status code 404 indicate?",
+        "options": ["Server error", "Unauthorized request", "Resource not found", "Success"],
+        "answer": "Resource not found"
+      },
+      {
+        "question": "What format is commonly used to exchange data in Web APIs?",
+        "options": ["XML", "JSON", "YAML", "Both a and b"],
+        "answer": "Both a and b"
+      },
+      {
+        "question": "Which HTTP method is used to create a new resource?",
+        "options": ["GET", "POST", "PUT", "DELETE"],
+        "answer": "POST"
+      },
+      {
+        "question": "What is an API endpoint?",
+        "options": [
+          "A URL where an API receives requests",
+          "A programming language used in APIs",
+          "A function inside an API",
+          "A database table"
+        ],
+        "answer": "A URL where an API receives requests"
+      },
+      {
+        "question": "What does CORS stand for?",
+        "options": ["Cross-Origin Resource Sharing", "Client-Origin Resource Service", "Cloud-Origin Request System", "Code Organization and Routing Structure"],
+        "answer": "Cross-Origin Resource Sharing"
+      },
+      {
+        "question": "Which authentication mechanism is commonly used in APIs?",
+        "options": ["OAuth", "JWT", "API Keys", "All of the above"],
+        "answer": "All of the above"
+      },
+      {
+        "question": "What does the HTTP PUT method do?",
+        "options": ["Creates a new resource", "Updates an existing resource or creates if not exists", "Retrieves a resource", "Deletes a resource"],
+        "answer": "Updates an existing resource or creates if not exists"
+      },
+      {
+        "question": "What is the primary function of OAuth in Web APIs?",
+        "options": ["Encrypt data", "Authenticate and authorize users", "Format JSON responses", "Store user credentials"],
+        "answer": "Authenticate and authorize users"
+      },
+      {
+        "question": "Which of the following is NOT a REST constraint?",
+        "options": ["Statelessness", "Client-Server architecture", "Sessions management", "Uniform Interface"],
+        "answer": "Sessions management"
+      },
+      {
+        "question": "What is Swagger used for?",
+        "options": ["Database management", "API documentation", "Frontend development", "Authentication"],
+        "answer": "API documentation"
+      },
+      {
+        "question": "Which HTTP status code indicates that authentication is required?",
+        "options": ["200", "401", "500", "204"],
+        "answer": "401"
+      },
+      {
+        "question": "What is the purpose of API rate limiting?",
+        "options": ["To improve security and prevent abuse", "To limit the number of API users", "To make APIs slower", "To restrict API access permanently"],
+        "answer": "To improve security and prevent abuse"
+      },
+      {
+        "question": "What is the purpose of API versioning?",
+        "options": [
+          "To manage changes without breaking existing clients",
+          "To make the API slower",
+          "To confuse developers",
+          "To increase server load"
+        ],
+        "answer": "To manage changes without breaking existing clients"
+      },
+      {
+        "question": "Which authentication method uses a token in the Authorization header?",
+        "options": [
+          "Bearer Token",
+          "Basic Auth",
+          "API Key",
+          "OAuth 1.0"
+        ],
+        "answer": "Bearer Token"
+      },
+      {
+        "question": "What is CORS?",
+        "options": [
+          "Cross-Origin Resource Sharing",
+          "Cross-Origin Request System",
+          "Create Origin Response Service",
+          "Cross-Origin Response Setup"
+        ],
+        "answer": "Cross-Origin Resource Sharing"
+      },
+      {
+        "question": "Which HTTP method is idempotent?",
+        "options": [
+          "GET",
+          "POST",
+          "PATCH",
+          "None of these"
+        ],
+        "answer": "GET"
+      },
+      {
+        "question": "What is the purpose of the HTTP HEAD method?",
+        "options": [
+          "To get response headers without body",
+          "To send data to server",
+          "To delete a resource",
+          "To update data"
+        ],
+        "answer": "To get response headers without body"
+      },
+      {
+        "question": "Which status code represents 'Bad Request'?",
+        "options": [
+          "400",
+          "401",
+          "403",
+          "404"
+        ],
+        "answer": "400"
+      },
+      {
+        "question": "What is JWT?",
+        "options": [
+          "JSON Web Token",
+          "Java Web Transfer",
+          "JavaScript Web Tool",
+          "JSON Web Transfer"
+        ],
+        "answer": "JSON Web Token"
+      },
+      {
+        "question": "Which HTTP method should be used to update a resource partially?",
+        "options": [
+          "PATCH",
+          "PUT",
+          "POST",
+          "UPDATE"
+        ],
+        "answer": "PATCH"
+      },
+      {
+        "question": "What is rate limiting in APIs?",
+        "options": [
+          "Limiting number of requests per time period",
+          "Limiting response size",
+          "Limiting database connections",
+          "Limiting API versions"
+        ],
+        "answer": "Limiting number of requests per time period"
+      },
+      {
+        "question": "Which format is NOT commonly used in API responses?",
+        "options": [
+          "PDF",
+          "JSON",
+          "XML",
+          "YAML"
+        ],
+        "answer": "PDF"
+      },
+      {
+        "question": "What is GraphQL?",
+        "options": [
+          "A query language for APIs",
+          "A graph database",
+          "A JavaScript framework",
+          "A REST alternative"
+        ],
+        "answer": "A query language for APIs"
+      },
+      {
+        "question": "What is the purpose of an API Gateway?",
+        "options": [
+          "To manage and route API requests",
+          "To store API data",
+          "To create API documentation",
+          "To write API code"
+        ],
+        "answer": "To manage and route API requests"
+      },
+      {
+        "question": "Which HTTP method is used for idempotent updates?",
+        "options": [
+          "PUT",
+          "POST",
+          "PATCH",
+          "DELETE"
+        ],
+        "answer": "PUT"
+      },
+      {
+        "question": "What is API throttling?",
+        "options": [
+          "Limiting request rate",
+          "Increasing API speed",
+          "Reducing API costs",
+          "Managing API versions"
+        ],
+        "answer": "Limiting request rate"
+      },
+      {
+        "question": "Which status code range represents server errors?",
+        "options": [
+          "500-599",
+          "400-499",
+          "300-399",
+          "200-299"
+        ],
+        "answer": "500-599"
+      },
+      {
+        "question": "What is API caching used for?",
+        "options": [
+          "Improving performance",
+          "Storing credentials",
+          "Creating backups",
+          "Testing APIs"
+        ],
+        "answer": "Improving performance"
+      },
+      {
+        "question": "What is the purpose of HATEOAS?",
+        "options": [
+          "Providing navigation in REST APIs",
+          "Securing API endpoints",
+          "Managing API versions",
+          "Testing API responses"
+        ],
+        "answer": "Providing navigation in REST APIs"
+      },
+      {
+        "question": "What is an API contract?",
+        "options": [
+          "Documentation of API behavior",
+          "Legal agreement",
+          "Payment terms",
+          "Service agreement"
+        ],
+        "answer": "Documentation of API behavior"
+      },
+      {
+        "question": "Which tool is used for API mocking?",
+        "options": [
+          "Postman",
+          "MySQL",
+          "React",
+          "Angular"
+        ],
+        "answer": "Postman"
+      },
+      {
+        "question": "What is API orchestration?",
+        "options": [
+          "Combining multiple API calls",
+          "Creating API documentation",
+          "Testing APIs",
+          "Securing APIs"
+        ],
+        "answer": "Combining multiple API calls"
+      },
+      {
+        "question": "What does the HTTP DELETE method do?",
+        "options": ["Retrieves data", "Deletes a resource", "Updates a resource", "Creates a new resource"],
+        "answer": "Deletes a resource"
+      },
+      {
+        "question": "Which of the following best describes GraphQL?",
+        "options": ["A replacement for REST APIs", "A query language for APIs", "A database management system", "A frontend framework"],
+        "answer": "A query language for APIs"
+      },
+      {
+        "question": "What is the primary purpose of an API gateway?",
+        "options": ["To authenticate users only", "To manage, secure, and route API requests", "To store API responses in a database", "To convert XML to JSON"],
+        "answer": "To manage, secure, and route API requests"
+      },
+      {
+        "question": "What does JSON stand for?",
+        "options": ["JavaScript Object Notation", "Java Serialized Object Notation", "JavaScript Oriented Naming", "Java System Object Naming"],
+        "answer": "JavaScript Object Notation"
+      },
+      {
+        "question": "Which HTTP status code represents 'Created' in REST APIs?",
+        "options": ["200", "201", "204", "400"],
+        "answer": "201"
+      },
+      {
+        "question": "What is the purpose of an API key?",
+        "options": [
+          "To identify and authenticate API clients",
+          "To encrypt API responses",
+          "To compress API data",
+          "To format API responses"
+        ],
+        "answer": "To identify and authenticate API clients"
+      },
+      {
+        "question": "What is the main purpose of an API?",
+        "options": [
+          "To allow different software to communicate",
+          "To create websites",
+          "To store data",
+          "To design user interfaces"
+        ],
+        "answer": "To allow different software to communicate"
+      },
+      {
+        "question": "Which company's API lets you embed maps on websites?",
+        "options": [
+          "Google Maps",
+          "Microsoft Word",
+          "Adobe Photoshop",
+          "Norton Antivirus"
+        ],
+        "answer": "Google Maps"
+      },
+      {
+        "question": "What does a weather API typically provide?",
+        "options": [
+          "Weather forecast data",
+          "Social media posts",
+          "Stock prices",
+          "News articles"
+        ],
+        "answer": "Weather forecast data"
+      },
+      {
+        "question": "Which of these is a common use of social media APIs?",
+        "options": [
+          "Sharing posts on multiple platforms",
+          "Creating new social networks",
+          "Building operating systems",
+          "Writing documents"
+        ],
+        "answer": "Sharing posts on multiple platforms"
+      },
+      {
+        "question": "What is a payment API used for?",
+        "options": [
+          "Processing online payments",
+          "Creating websites",
+          "Sending emails",
+          "Storing files"
+        ],
+        "answer": "Processing online payments"
+      },
+      {
+        "question": "Which of these companies provides a popular payment API?",
+        "options": [
+          "PayPal",
+          "Microsoft Word",
+          "Adobe Reader",
+          "Norton"
+        ],
+        "answer": "PayPal"
+      },
+      {
+        "question": "What can you do with YouTube's API?",
+        "options": [
+          "Embed videos on websites",
+          "Create new videos",
+          "Edit video files",
+          "Store videos locally"
+        ],
+        "answer": "Embed videos on websites"
+      },
+      {
+        "question": "What is a common use of email APIs?",
+        "options": [
+          "Sending automated emails",
+          "Creating email addresses",
+          "Building email servers",
+          "Reading physical mail"
+        ],
+        "answer": "Sending automated emails"
+      },
+      {
+        "question": "Which service would use a translation API?",
+        "options": [
+          "Language learning apps",
+          "Calculator apps",
+          "Drawing apps",
+          "Music players"
+        ],
+        "answer": "Language learning apps"
+      },
+      {
+        "question": "What is an example of a file storage API?",
+        "options": [
+          "Dropbox API",
+          "Calculator API",
+          "Clock API",
+          "Calendar API"
+        ],
+        "answer": "Dropbox API"
+      },
+      {
+        "question": "What is the primary purpose of an API?",
+        "options": [
+          "To provide a user interface for applications",
+          "To allow different software systems to communicate with each other",
+          "To store data in a database",
+          "To manage network security"
+        ],
+        "answer": "To allow different software systems to communicate with each other"
+      },
+      {
+        "question": "Which of the following is an example of an API?",
+        "options": [
+          "A web page displaying information",
+          "A mobile application accessing a server",
+          "A database storing user data",
+          "A computer's operating system"
+        ],
+        "answer": "A mobile application accessing a server"
+      },
+      {
+        "question": "What does REST stand for in the context of APIs?",
+        "options": [
+          "Remote Execution of Services and Transactions",
+          "Representational State Transfer",
+          "Rapid Environment for Server Testing",
+          "Repetitive Systematic Task"
+        ],
+        "answer": "Representational State Transfer"
+      },
+      {
+        "question": "Which HTTP method is used to retrieve data from a server?",
+        "options": [
+          "POST",
+          "GET",
+          "PUT",
+          "DELETE"
+        ],
+        "answer": "GET"
+      },
+      {
+        "question": "What does the HTTP status code 200 indicate?",
+        "options": [
+          "Bad Request",
+          "Unauthorized",
+          "Not Found",
+          "OK"
+        ],
+        "answer": "OK"
+      },
+      {
+        "question": "Which of the following is NOT a common data format used in APIs?",
+        "options": [
+          "JSON",
+          "XML",
+          "YAML",
+          "PDF"
+        ],
+        "answer": "PDF"
+      },
+      {
+        "question": "What is the purpose of an API key?",
+        "options": [
+          "To encrypt data transmitted over the network",
+          "To authenticate and authorize users accessing the API",
+          "To format the data returned by the API",
+          "To store user credentials securely"
+        ],
+        "answer": "To authenticate and authorize users accessing the API"
+      },
+      {
+        "question": "Which of the following is an example of a RESTful API?",
+        "options": [
+          "SOAP",
+          "GraphQL",
+          "JSON-RPC",
+          "Twitter API"
+        ],
+        "answer": "Twitter API"
+      },
+      {
+        "question": "What does the HTTP POST method do?",
+        "options": [
+          "Retrieves data from the server",
+          "Updates existing data on the server",
+          "Deletes data from the server",
+          "Submits data to be processed to the server"
+        ],
+        "answer": "Submits data to be processed to the server"
+      },
+      {
+        "question": "Which of the following is a benefit of using APIs in software development?",
+        "options": [
+          "Increased application size",
+          "Reduced development time",
+          "Limited access to external services",
+          "Increased complexity"
+        ],
+        "answer": "Reduced development time"
+      },
+
+          {
+            "question": "What does the following HTTP request do?",
+            "code": "GET /api/users HTTP/1.1\nHost: example.com",
+            "options": [
+              "Retrieves a list of users",
+              "Creates a new user",
+              "Updates user information",
+              "Deletes a user"
+            ],
+            "answer": "Retrieves a list of users"
+          },
+          {
+            "question": "What is the purpose of the following code snippet?",
+            "code": "fetch('https://api.example.com/data')\n  .then(response => response.json())\n  .then(data => console.log(data));",
+            "options": [
+              "Fetch data from an API and log it to the console",
+              "Send data to an API",
+              "Update data on an API",
+              "Delete data from an API"
+            ],
+            "answer": "Fetch data from an API and log it to the console"
+          },
+          {
+            "question": "What does the following JSON represent?",
+            "code": "{\n  \"name\": \"John\",\n  \"age\": 30,\n  \"city\": \"New York\"\n}",
+            "options": [
+              "A JSON object representing a person",
+              "A JSON array",
+              "An XML document",
+              "A CSV file"
+            ],
+            "answer": "A JSON object representing a person"
+          },
+          {
+            "question": "What is the purpose of the following HTTP header?",
+            "code": "Authorization: Bearer <token>",
+            "options": [
+              "To authenticate the request using a token",
+              "To specify the content type",
+              "To set the request method",
+              "To define the response format"
+            ],
+            "answer": "To authenticate the request using a token"
+          },
+          {
+            "question": "What does the following code snippet do?",
+            "code": "app.get('/api/users', (req, res) => {\n  res.send('Hello World');\n});",
+            "options": [
+              "Defines a GET endpoint that responds with 'Hello World'",
+              "Defines a POST endpoint that responds with 'Hello World'",
+              "Defines a PUT endpoint that responds with 'Hello World'",
+              "Defines a DELETE endpoint that responds with 'Hello World'"
+            ],
+            "answer": "Defines a GET endpoint that responds with 'Hello World'"
+          },
+          {
+            "question": "What is the purpose of the following code snippet?",
+            "code": "axios.post('https://api.example.com/data', {\n  name: 'John',\n  age: 30\n})\n.then(response => console.log(response))\n.catch(error => console.error(error));",
+            "options": [
+              "Send a POST request to an API with data",
+              "Send a GET request to an API",
+              "Send a PUT request to an API",
+              "Send a DELETE request to an API"
+            ],
+            "answer": "Send a POST request to an API with data"
+          },
+          {
+            "question": "What does the following code snippet do?",
+            "code": "const express = require('express');\nconst app = express();\n\napp.listen(3000, () => {\n  console.log('Server is running on port 3000');\n});",
+            "options": [
+              "Starts an Express server on port 3000",
+              "Stops an Express server",
+              "Creates a new Express application",
+              "Defines a new route in Express"
+            ],
+            "answer": "Starts an Express server on port 3000"
+          },
+          {
+            "question": "What does the following HTTP request do?",
+            "code": "POST /api/users HTTP/1.1\nHost: example.com\nContent-Type: application/json\n\n{\n  \"name\": \"John\",\n  \"age\": 30\n}",
+            "options": [
+              "Creates a new user with the provided data",
+              "Retrieves a list of users",
+              "Updates user information",
+              "Deletes a user"
+            ],
+            "answer": "Creates a new user with the provided data"
+          },
+          {
+            "question": "What is the purpose of the following code snippet?",
+            "code": "const data = {\n  name: 'John',\n  age: 30\n};\n\nfetch('https://api.example.com/users', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify(data)\n})\n.then(response => response.json())\n.then(data => console.log(data));",
+            "options": [
+              "Send a POST request to create a new user",
+              "Send a GET request to retrieve users",
+              "Send a PUT request to update a user",
+              "Send a DELETE request to remove a user"
+            ],
+            "answer": "Send a POST request to create a new user"
+          },
+          {
+            "question": "What does the following code snippet do?",
+            "code": "app.delete('/api/users/:id', (req, res) => {\n  res.send(`User ${req.params.id} deleted`);\n});",
+            "options": [
+              "Defines a DELETE endpoint that deletes a user by ID",
+              "Defines a GET endpoint that retrieves a user by ID",
+              "Defines a POST endpoint that creates a new user",
+              "Defines a PUT endpoint that updates a user by ID"
+            ],
+            "answer": "Defines a DELETE endpoint that deletes a user by ID"
+          },
+          {
+            "question": "What does the following code snippet do?",
+            "code": "const express = require('express');\nconst app = express();\n\napp.get('/api/items', (req, res) => {\n  res.send('Items list');\n});",
+            "options": [
+              "Defines a GET endpoint that responds with 'Items list'",
+              "Defines a POST endpoint that responds with 'Items list'",
+              "Defines a PUT endpoint that responds with 'Items list'",
+              "Defines a DELETE endpoint that responds with 'Items list'"
+            ],
+            "answer": "Defines a GET endpoint that responds with 'Items list'"
+          },
+          {
+            "question": "What does the following HTTP request do?",
+            "code": "DELETE /api/users/123 HTTP/1.1\nHost: example.com",
+            "options": [
+              "Deletes a user with ID 123",
+              "Retrieves a user with ID 123",
+              "Updates a user with ID 123",
+              "Creates a new user with ID 123"
+            ],
+            "answer": "Deletes a user with ID 123"
+          },
+          {
+            "question": "What is the purpose of the following code snippet?",
+            "code": "const data = {\n  title: 'New Item',\n  price: 100\n};\n\nfetch('https://api.example.com/items', {\n  method: 'POST',\n  headers: {\n    'Content-Type': 'application/json'\n  },\n  body: JSON.stringify(data)\n})\n.then(response => response.json())\n.then(data => console.log(data));",
+            "options": [
+              "Send a POST request to create a new item",
+              "Send a GET request to retrieve items",
+              "Send a PUT request to update an item",
+              "Send a DELETE request to remove an item"
+            ],
+            "answer": "Send a POST request to create a new item"
+          },
+          {
+            "question": "What does the following code snippet do?",
+            "code": "app.put('/api/users/:id', (req, res) => {\n  res.send(`User ${req.params.id} updated`);\n});",
+            "options": [
+              "Defines a PUT endpoint that updates a user by ID",
+              "Defines a GET endpoint that retrieves a user by ID",
+              "Defines a POST endpoint that creates a new user",
+              "Defines a DELETE endpoint that deletes a user by ID"
+            ],
+            "answer": "Defines a PUT endpoint that updates a user by ID"
+          }
+      ,
+      {
+        "question": "What does the HTTP status code 200 OK signify?",
+        "options": [
+          "The request has been received but not yet processed",
+          "The request has been successfully processed and returned the expected response",
+          "The request is malformed and cannot be processed",
+          "The requested resource is not found"
+        ],
+        "answer": "The request has been successfully processed and returned the expected response"
+      },
+      {
+        "question": "Which HTTP status code is used when a resource is created successfully?",
+        "options": [
+          "200 OK",
+          "201 Created",
+          "202 Accepted",
+          "204 No Content"
+        ],
+        "answer": "201 Created"
+      },
+      {
+        "question": "What does the HTTP status code 404 Not Found mean?",
+        "options": [
+          "The request is incorrect due to client-side issues",
+          "The server cannot find the requested resource",
+          "The server encountered an internal error",
+          "The request is unauthorized"
+        ],
+        "answer": "The server cannot find the requested resource"
+      },
+      {
+        "question": "Which HTTP status code represents an unauthorized request?",
+        "options": [
+          "400 Bad Request",
+          "401 Unauthorized",
+          "403 Forbidden",
+          "500 Internal Server Error"
+        ],
+        "answer": "401 Unauthorized"
+      },
+      {
+        "question": "Which status code indicates that the request was received but is still being processed?",
+        "options": [
+          "200 OK",
+          "201 Created",
+          "202 Accepted",
+          "204 No Content"
+        ],
+        "answer": "202 Accepted"
+      },
+      {
+        "question": "What does the HTTP status code 500 Internal Server Error indicate?",
+        "options": [
+          "The request has a syntax error",
+          "The server encountered an unexpected condition that prevented it from fulfilling the request",
+          "The client is not authorized to access the resource",
+          "The requested resource was permanently deleted"
+        ],
+        "answer": "The server encountered an unexpected condition that prevented it from fulfilling the request"
+      },
+      {
+        "question": "What is the difference between HTTP status codes 401 and 403?",
+        "options": [
+          "401 means the request lacks valid authentication credentials, while 403 means the request is authenticated but forbidden",
+          "401 means the request is forbidden, while 403 means the resource does not exist",
+          "Both mean the resource is unavailable, but 403 is for API rate limiting",
+          "401 and 403 are interchangeable and mean the same thing"
+        ],
+        "answer": "401 means the request lacks valid authentication credentials, while 403 means the request is authenticated but forbidden"
+      },
+      {
+        "question": "Which HTTP status code should a REST API return when a client exceeds the rate limit?",
+        "options": [
+          "400 Bad Request",
+          "401 Unauthorized",
+          "429 Too Many Requests",
+          "503 Service Unavailable"
+        ],
+        "answer": "429 Too Many Requests"
+      },
+      {
+        "question": "Which HTTP method is considered idempotent in a RESTful API?",
+        "options": [
+          "POST",
+          "PATCH",
+          "DELETE",
+          "PUT"
+        ],
+        "answer": "PUT"
+      },
+      {
+        "question": "In a REST API, which HTTP status code should be used when a request contains an outdated or expired resource representation?",
+        "options": [
+          "409 Conflict",
+          "410 Gone",
+          "412 Precondition Failed",
+          "428 Precondition Required"
+        ],
+        "answer": "412 Precondition Failed"
+      },
+      {
+        "question": "What is the primary difference between the HTTP status codes 301 and 308?",
+        "options": [
+          "301 allows changing the request method during redirection, while 308 does not",
+          "308 allows changing the request method during redirection, while 301 does not",
+          "301 is for permanent redirection, while 308 is for temporary redirection",
+          "There is no difference; both are identical"
+        ],
+        "answer": "301 allows changing the request method during redirection, while 308 does not"
+      },
+      {
+        "question": "Which of the following headers is used for API versioning in a RESTful API?",
+        "options": [
+          "Accept-Version",
+          "Authorization",
+          "X-Rate-Limit",
+          "Retry-After"
+        ],
+        "answer": "Accept-Version"
+      },
+      {
+        "question": "In REST API design, what is the purpose of the HTTP 206 Partial Content status code?",
+        "options": [
+          "It indicates that the request was successful, but only part of the resource was returned",
+          "It is used when an API endpoint is deprecated",
+          "It is returned when a request is missing required parameters",
+          "It means the request was received but is waiting for further processing"
+        ],
+        "answer": "It indicates that the request was successful, but only part of the resource was returned"
+      },
+      {
+        "question": "Which HTTP response header is used to specify the allowed HTTP methods for a resource?",
+        "options": [
+          "Allow",
+          "Access-Control-Allow-Methods",
+          "Content-Type",
+          "Cache-Control"
+        ],
+        "answer": "Allow"
+      },
+      {
+        "question": "What is the main difference between API Gateway and Reverse Proxy?",
+        "options": [
+          "An API Gateway manages authentication, rate limiting, and request transformations, whereas a Reverse Proxy mainly handles load balancing and caching",
+          "A Reverse Proxy is always used in microservices, while an API Gateway is only for monolithic applications",
+          "API Gateways are only for internal API communication, while Reverse Proxies work for external APIs",
+          "There is no difference between an API Gateway and a Reverse Proxy"
+        ],
+        "answer": "An API Gateway manages authentication, rate limiting, and request transformations, whereas a Reverse Proxy mainly handles load balancing and caching"
+      },
+      {
+        "question": "What does the HTTP status code 451 Unavailable For Legal Reasons indicate?",
+        "options": [
+          "The requested resource is no longer available and has been permanently removed",
+          "Access to the requested resource is denied due to legal restrictions",
+          "The client must authenticate to access the resource",
+          "The request was blocked due to exceeding API rate limits"
+        ],
+        "answer": "Access to the requested resource is denied due to legal restrictions"
+      }
+    ]
+  }
+  
